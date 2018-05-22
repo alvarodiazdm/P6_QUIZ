@@ -153,6 +153,8 @@ exports.check = (req, res, next) => {
         answer
     });
 };
+
+
 exports.randomplay = (req,res,next) => {
     req.session.randomPlay = req.session.randomPlay || [];
     let score = 0;
